@@ -55,6 +55,7 @@ export const ContactForm = ({ onSubmit }) => {
           required
         />
       </ContLabel>
+
       <ContLabel htmlFor={numberInputId}>
         Number
         <ContInput
@@ -66,6 +67,7 @@ export const ContactForm = ({ onSubmit }) => {
           required
         />
       </ContLabel>
+
       <AddButton type="submit">Add contact</AddButton>
     </ContForm>
   );
